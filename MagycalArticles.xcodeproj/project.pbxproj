@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18B3A5A6309B78E10053867D /* ArticleSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3A5A2309B78E10053867D /* ArticleSearchTests.swift */; };
+		18B3A5A7309B78E10053867D /* ArticleManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3A5A3309B78E10053867D /* ArticleManagerTests.swift */; };
+		18B3A5A8309B78E10053867D /* ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3A5A4309B78E10053867D /* ArticleTests.swift */; };
+		18B3A5A9309B78E10053867D /* ArticleProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18B3A5A5309B78E10053867D /* ArticleProviderTests.swift */; };
 		18DEB8F03099B5B800527A0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DEB8EF3099B5B800527A0C /* AppDelegate.swift */; };
 		18DEB8F93099B5BA00527A0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DEB8F83099B5BA00527A0C /* Assets.xcassets */; };
 		18DEB8FC3099B5BA00527A0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DEB8FA3099B5BA00527A0C /* LaunchScreen.storyboard */; };
@@ -24,8 +28,23 @@
 		35F42E24616FC33CDB5E4848 /* Pods_MagycalArticles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 098FAAA08BBC5BCC1763D541 /* Pods_MagycalArticles.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		18B3A59D309B78250053867D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18DEB8E43099B5B800527A0C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18DEB8EB3099B5B800527A0C;
+			remoteInfo = MagycalArticles;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		098FAAA08BBC5BCC1763D541 /* Pods_MagycalArticles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagycalArticles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B3A599309B78250053867D /* MagycalArticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagycalArticlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18B3A5A2309B78E10053867D /* ArticleSearchTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleSearchTests.swift; sourceTree = "<group>"; };
+		18B3A5A3309B78E10053867D /* ArticleManagerTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleManagerTests.swift; sourceTree = "<group>"; };
+		18B3A5A4309B78E10053867D /* ArticleTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArticleTests.swift; path = ../../../Downloads/MagycalArticlesTests/ArticleTests.swift; sourceTree = "<group>"; };
+		18B3A5A5309B78E10053867D /* ArticleProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleProviderTests.swift; sourceTree = "<group>"; };
 		18DEB8EC3099B5B800527A0C /* MagycalArticles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagycalArticles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18DEB8EF3099B5B800527A0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18DEB8F83099B5BA00527A0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -47,6 +66,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		18B3A596309B78250053867D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18DEB8E93099B5B800527A0C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -66,10 +92,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		18B3A59A309B78250053867D /* MagycalArticlesTests */ = {
+			isa = PBXGroup;
+			children = (
+				18B3A5A3309B78E10053867D /* ArticleManagerTests.swift */,
+				18B3A5A5309B78E10053867D /* ArticleProviderTests.swift */,
+				18B3A5A2309B78E10053867D /* ArticleSearchTests.swift */,
+				18B3A5A4309B78E10053867D /* ArticleTests.swift */,
+			);
+			path = MagycalArticlesTests;
+			sourceTree = "<group>";
+		};
 		18DEB8E33099B5B800527A0C = {
 			isa = PBXGroup;
 			children = (
 				18DEB8EE3099B5B800527A0C /* MagycalArticles */,
+				18B3A59A309B78250053867D /* MagycalArticlesTests */,
 				18DEB8ED3099B5B800527A0C /* Products */,
 				A1F2005AEECC5A80FB3AF11C /* Pods */,
 				0418EBC1784CB5ADB3729740 /* Frameworks */,
@@ -80,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				18DEB8EC3099B5B800527A0C /* MagycalArticles.app */,
+				18B3A599309B78250053867D /* MagycalArticlesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +213,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		18B3A598309B78250053867D /* MagycalArticlesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18B3A5A1309B78250053867D /* Build configuration list for PBXNativeTarget "MagycalArticlesTests" */;
+			buildPhases = (
+				18B3A595309B78250053867D /* Sources */,
+				18B3A596309B78250053867D /* Frameworks */,
+				18B3A597309B78250053867D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18B3A59E309B78250053867D /* PBXTargetDependency */,
+			);
+			name = MagycalArticlesTests;
+			productName = MagycalArticlesTests;
+			productReference = 18B3A599309B78250053867D /* MagycalArticlesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		18DEB8EB3099B5B800527A0C /* MagycalArticles */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18DEB9003099B5BA00527A0C /* Build configuration list for PBXNativeTarget "MagycalArticles" */;
@@ -203,6 +260,10 @@
 				LastSwiftUpdateCheck = 1320;
 				LastUpgradeCheck = 1320;
 				TargetAttributes = {
+					18B3A598309B78250053867D = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 18DEB8EB3099B5B800527A0C;
+					};
 					18DEB8EB3099B5B800527A0C = {
 						CreatedOnToolsVersion = 13.2.1;
 					};
@@ -222,11 +283,19 @@
 			projectRoot = "";
 			targets = (
 				18DEB8EB3099B5B800527A0C /* MagycalArticles */,
+				18B3A598309B78250053867D /* MagycalArticlesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		18B3A597309B78250053867D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18DEB8EA3099B5B800527A0C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -282,6 +351,17 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		18B3A595309B78250053867D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18B3A5A8309B78E10053867D /* ArticleTests.swift in Sources */,
+				18B3A5A6309B78E10053867D /* ArticleSearchTests.swift in Sources */,
+				18B3A5A7309B78E10053867D /* ArticleManagerTests.swift in Sources */,
+				18B3A5A9309B78E10053867D /* ArticleProviderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18DEB8E83099B5B800527A0C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -302,6 +382,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		18B3A59E309B78250053867D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18DEB8EB3099B5B800527A0C /* MagycalArticles */;
+			targetProxy = 18B3A59D309B78250053867D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		18DEB8FA3099B5BA00527A0C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -314,6 +402,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		18B3A59F309B78250053867D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22G6M7RYSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pkfirebase.MagycalArticlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagycalArticles.app/MagycalArticles";
+			};
+			name = Debug;
+		};
+		18B3A5A0309B78250053867D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 22G6M7RYSC;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pkfirebase.MagycalArticlesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagycalArticles.app/MagycalArticles";
+			};
+			name = Release;
+		};
 		18DEB8FE3099B5BA00527A0C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -491,6 +615,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		18B3A5A1309B78250053867D /* Build configuration list for PBXNativeTarget "MagycalArticlesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18B3A59F309B78250053867D /* Debug */,
+				18B3A5A0309B78250053867D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		18DEB8E73099B5B800527A0C /* Build configuration list for PBXProject "MagycalArticles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
