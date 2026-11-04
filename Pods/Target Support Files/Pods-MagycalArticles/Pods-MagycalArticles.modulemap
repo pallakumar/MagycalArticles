@@ -1,0 +1,6 @@
+framework module Pods_MagycalArticles {
+  umbrella header "Pods-MagycalArticles-umbrella.h"
+
+  export *
+  module * { export * }
+}
