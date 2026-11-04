@@ -38,6 +38,15 @@ An iOS application for browsing and reading articles, built using UIKit, SwiftUI
 - Swift 5.5.2
 - iOS Simulator
 
+## Application Screenshots
+<img width="600" height="1299" alt="offline-screen" src="https://github.com/user-attachments/assets/af326d90-1243-464e-8271-7b1dc561d41e" />
+<img width="600" height="1299" alt="article-search" src="https://github.com/user-attachments/assets/eb944318-997a-493e-ad39-552b03008f30" />
+<img width="600" height="1299" alt="article-list" src="https://github.com/user-attachments/assets/9707400d-ac21-437a-b493-f304419bfeda" />
+<img width="600" height="1299" alt="article-grid" src="https://github.com/user-attachments/assets/8ec37915-7576-43e1-966c-5572b1381068" />
+<img width="600" height="1299" alt="article-details" src="https://github.com/user-attachments/assets/5b907ed6-ac75-4ee5-9be9-d70f20f48e3b" />
+<img width="600" height="1299" alt="article-list-refresh" src="https://github.com/user-attachments/assets/f1f7c1bf-a094-4677-a170-14f814717068" />
+
+
 ## Installation
 
 Clone the repository:
